@@ -729,6 +729,9 @@ export type MusicPlayerConfig = {
 	// 是否在导航栏显示音乐播放器
 	showInNavbar?: boolean;
 
+	// 是否显示全局悬浮音乐播放器（右下角悬浮球）
+	showFloating?: boolean;
+
 	// Meting API 配置
 	meting?: {
 		// Meting API 地址

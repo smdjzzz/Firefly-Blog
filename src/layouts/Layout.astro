@@ -6,6 +6,7 @@ import UmamiAnalytics from "@components/analytics/UmamiAnalytics.astro";
 import FancyboxManager from "@components/features/FancyboxManager.astro";
 import FontManager from "@components/features/FontManager.astro";
 import MusicManager from "@components/features/MusicManager.astro";
+import FloatingMusicPlayer from "@components/features/FloatingMusicPlayer.astro";
 import SakuraEffect from "@components/features/SakuraEffect.astro";
 import ConfigCarrier from "@components/layout/ConfigCarrier.astro";
 
@@ -15,6 +16,7 @@ import {
 	profileConfig,
 	siteConfig,
 } from "@/config";
+import { musicPlayerConfig } from "@/config/musicConfig";
 import {
 	BANNER_HEIGHT,
 	BANNER_HEIGHT_EXTEND,
@@ -584,6 +586,7 @@ const siteLang = lang.replace("_", "-");
     {shouldShowTopHighlight && <div class="top-gradient-highlight" />}
     <ConfigCarrier />
     <MusicManager />
+    {musicPlayerConfig.showFloating && <FloatingMusicPlayer />}
     <slot />
 
 

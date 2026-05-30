@@ -13,7 +13,7 @@ export const siteConfig: SiteConfig = {
 	subtitle: "充满鲜花的世界到底在哪里",
 
 	// 站点 URL
-	site_url: "https://firefly.cuteleaf.cn",
+	site_url: "https://smdj-p.com",
 
 	// 站点描述
 	description:
