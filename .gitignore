@@ -30,6 +30,11 @@ yarn.lock
 .idea
 *.iml
 .claude
+.codegraph/
+.mcp.json
+
+# backup
+backup/
 
 # docs
 Firefly-docs/
