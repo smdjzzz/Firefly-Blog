@@ -23,6 +23,16 @@ export const friendsPageConfig: FriendsPageConfig = {
 // 友链配置
 export const friendsConfig: FriendLink[] = [
 	{
+		title: "Yonagi",
+		imgurl:
+			"https://www.yonagi.world/assets/profile-avatar.jpg",
+		desc: "",
+		siteurl: "https://www.yonagi.world/",
+		tags: ["Blog"],
+		weight: 10, // 权重，数字越大排序越靠前
+		enabled: true, // 是否启用
+	},
+	{
 		title: "夏夜流萤",
 		imgurl:
 			"https://weavatar.com/avatar/d252655d40d6874417a720bad0a6c5f77f8f6a1fd2f882f8f338402dc37e4190?s=640",
@@ -32,15 +42,15 @@ export const friendsConfig: FriendLink[] = [
 		weight: 10, // 权重，数字越大排序越靠前
 		enabled: true, // 是否启用
 	},
-	{
-		title: "Firefly Docs",
-		imgurl: "https://docs-firefly.cuteleaf.cn/logo.png",
-		desc: "Firefly主题模板文档",
-		siteurl: "https://docs-firefly.cuteleaf.cn",
-		tags: ["Docs"],
-		weight: 9,
-		enabled: true,
-	},
+	// {
+	// 	title: "Firefly Docs",
+	// 	imgurl: "https://docs-firefly.cuteleaf.cn/logo.png",
+	// 	desc: "Firefly主题模板文档",
+	// 	siteurl: "https://docs-firefly.cuteleaf.cn",
+	// 	tags: ["Docs"],
+	// 	weight: 9,
+	// 	enabled: true,
+	// },
 	{
 		title: "Astro",
 		imgurl: "https://avatars.githubusercontent.com/u/44914786?v=4&s=640",
