@@ -10,9 +10,13 @@ draft: false
 
 基于 Unity 2022.3 URP 的 2D 横版动作游戏，实现了完整的角色控制、战斗、AI、任务、背包、对话与存档系统。项目采用**管线式架构**驱动角色逐帧逻辑，通过 ScriptableObject 配置静态数据，遵循**构造器注入**、**职责分离**等设计原则，实现了高度模块化与可扩展的代码结构。
 
-角色控制器基于此框架编写： [控制器源码](`https://github.com/bunkerboy258/BBB-Nexus`) / [B站教程](`https://www.bilibili.com/video/BV1X2XZBDEDq/`)
+角色控制器基于此框架编写： [控制器源码](https://github.com/bunkerboy258/BBB-Nexus) / [B站教程](https://www.bilibili.com/video/BV1X2XZBDEDq/)
 
 本源码地址：[石磨豆浆/2DAction](https://gitee.com/smdjzzz/2-daction)
+
+<div style="position: relative; width: 100%; max-width: 800px; margin: 1rem auto; aspect-ratio: 16 / 9;">
+  <iframe src="https://player.bilibili.com/player.html?bvid=BV1BS7D6XE9E&autoplay=0&high_quality=1&danmaku=1" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 12px;" allowfullscreen="true" scrolling="no" loading="lazy"></iframe>
+</div>
 
 ---
 
