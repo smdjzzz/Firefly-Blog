@@ -22,9 +22,15 @@ export const profileConfig: ProfileConfig = {
 	// showName: true 时显示图标和名称，false 时只显示图标
 	links: [
 		{
-			name: "Bilibili",
+			name: "Bilibili个人",
 			icon: "simple-icons:bilibili",
 			url: "https://space.bilibili.com/525320206",
+			showName: false,
+		},
+		{
+			name: "Bilibili发布",
+			icon: "simple-icons:bilibili",
+			url: "https://space.bilibili.com/3707003943782976",
 			showName: false,
 		},
 		{

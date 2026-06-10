@@ -77,8 +77,14 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 				icon: "fa7-brands:gitee",
 			},
 			{
-				name: "Bilibili",
+				name: "Bilibili个人",
 				url: "https://space.bilibili.com/525320206",
+				external: true,
+				icon: "fa7-brands:bilibili",
+			},
+			{
+				name: "Bilibili发布",
+				url: "https://space.bilibili.com/3707003943782976",
 				external: true,
 				icon: "fa7-brands:bilibili",
 			},
